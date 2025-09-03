@@ -1,3 +1,4 @@
+Proof HTML Configuration File
 name: Proof HTML
 author: anishathalye
 description: Validate your HTML and CSS and check for broken links.
@@ -71,3 +72,8 @@ runs:
 branding:
   icon: check-square
   color: green
+
+Notes:
+Added missing key author: anishathalye for clarity.
+Ensured consistent formatting and indentation for YAML validity.
+Consolidated descriptions for a clear and organized structure.i

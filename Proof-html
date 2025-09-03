@@ -1,0 +1,19 @@
+name: Proof HTML
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  proof-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Proof HTML
+        uses: anishathalye/proof-html@v2.2.2
+        with:
+          path: ./public
